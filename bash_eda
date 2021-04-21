@@ -1,0 +1,44 @@
+Virtuoso="/opt/EDA/IC/cur/tools/bin"
+icfb="/opt/EDA/IC/cur/tools/dfII/bin"
+Hspice="/opt/EDA/hspice"
+Hspicebin="/opt/EDA/hspice/cur/hspice/bin"
+CosmosScope="/opt/EDA/cosmos_scope"
+CosmosScopebin="/opt/EDA/cosmos_scope/cur/ai_bin"
+Lakerbin="/opt/EDA/laker_oa/cur/bin"
+LakerADPbin="/opt/EDA/adp/cur/bin"
+Calibrebin="/opt/EDA/calibre/cur/bin"
+Incisivbin="/opt/EDA/INCISIV/cur/tools/bin"
+VSC="/opt/EDA/vcs/cur/bin"
+Modelsimbin="/opt/EDA/modelsim/cur/modeltech/bin"
+Verdi_bin="/opt/EDA/verdi/cur/bin"
+export PATH=$PATH:$Virtuoso:$icfb:$Hspicebin:$CosmosScopebin:$Lakerbin:$LakerADPbin:$Incisivbin:$Calibrebin:$VSC:$Modelsimbin:$Verdi_bin
+
+####ENV for IC60 #####
+CDS_LIC_FILE=5280@lsncku
+CDS_INST_DIR=/opt/EDA/cadence/IC/cur
+CDS_ROOT=/opt/EDA/cadence/IC/cur
+CDS_HOME=/opt/EDA/cadence/IC/cur
+CDS_Netlisting_Mode=Analog
+CDSDIR=$CDS_INST_DIR/tools
+#XKEYSYMDB=$CDS_INST_DIR/share/cdssetup/tdmX11/XKeysymDB
+XNLSPATH=$CDS_INST_DIR/share/cdssetup/tdmX11/nls
+CDS_AUTO_64BIT=ALL
+
+OA_HOME=/opt/EDA/cadence/IC/cur/oa
+
+
+MGC_HOME=/opt/EDA/calibre/cur
+CALIBRE_HOME=/opt/EDA/calibre/cur
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+export MGC_HOME CALIBRE_HOME MGC_TMPDIR MGC_LOCATION_MAP
+export USE_CALIBRE_VCO=aoi
+
+
+
+
+export VCS_HOME=/opt/EDA/vcs/cur
+export VCS_ARCH_OVERRIDE=linux
+
+export LM_LICENSE_FILE=5280@lsncku:26585@lsncku:5229@lsncku3:5280@lsncku:1717@lsncku
+
