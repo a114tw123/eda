@@ -4,9 +4,8 @@
 3.cp hosts /etc/hosts  
 4.執行 debug.sh  
 5.執行 cdsinit.sh  
-6.執行 debug.sh  
-7.全部解壓縮完畢後執行hspice.sh  
-8.source bash_eda  
+6.全部解壓縮完畢後執行hspice.sh  
+7.source bash_eda  
 做完檢查  
 
 
