@@ -1,0 +1,65 @@
+Virtuoso="/opt/EDA/cadence/IC/cur/tools/bin"
+icfb="/opt/EDA/cadence/IC/cur/tools/dfII/bin"
+Hspice="/opt/EDA/hspice"
+Hspicebin="/opt/EDA/hspice/cur/hspice/bin"
+CosmosScope="/opt/EDA/cosmos_scope"
+CosmosScopebun="/opt/EDA/cosmos_scope/cur/ai_bin"
+Lakerbin="/opt/EDA/laker_oa/cur/bin"
+LakerADPbin="/opt/EDA/adp/cur/bin"
+Calibrebin="/opt/EDA/calibre/cur/bin"
+Incisiv_bin="/opt/EDA/INCISIV/cur/tools/bin"
+VCS="/opt/EDA/vcs/cur/bin"
+###
+Modelsimbin="/opt/EDA/modelsim/cur/modeltech/bin"
+###
+Questasimbin="/opt/EDA/Questa_Sim/cur/questasim/bin"
+###
+Verdi_bin="/opt/EDA/verdi/cur/bin"
+
+DC_bin="/opt/EDA/synthesis/cur/bin"
+LC_bin="/opt/EDA/lc/cur/bin"
+
+ICC_bin="/opt/EDA/icc/cur/bin"
+ICC2_bin="/opt/EDA/icc2/cur/bin"
+
+Innovus_bin="/opt/EDA/INNOVUS/cur/tools/bin"
+
+Milkyway_bin="/opt/EDA/milkyway/cur/bin/linux64"
+
+export PATH=$PATH:$Virtuoso:$icfb:$Hspicebin:$CosmosScopebun:$Lakerbin:$LakerADPbin:$Calibrebin:$Incisiv_bin:$VCS:$Questasimbin:$Verdi_bin:$DC_bin:$LC_bin:$ICC_bin:$ICC2_bin:$Innovus_bin:$Milkyway_bin
+
+###
+export VCS_HOME=/opt/EDA/vcs/cur
+export VCS_ARCH_OVERRIDE=linux
+
+###
+export VRST_HOME=/opt/EDA/INCISIV/cur
+
+#sh $VRST_HOME/env.sh
+
+###
+MGC_HOME=/opt/EDA/calibre/cur
+CALIBRE_HOME=/opt/EDA/calibre/cur
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+
+export MGC_HOME CALIBRE_HOME MGC_TMPDIR MGC_LOCATION_MAP
+export USE_CALIBRE_VCO=aoi
+
+####ENV for IC60 #####
+CDS_LIC_FILE=5280@lsncku
+CDS_INST_DIR=/opt/EDA/cadence/IC/cur
+CDS_ROOT=/opt/EDA/cadence/IC/cur
+CDS_HOME=/opt/EDA/cadence/IC/cur
+CDS_Netlisting_Mode=Analog
+CDSDIR=$CDS_INST_DIR/tools
+#XKEYSYMDB=$CDS_INST_DIR/share/cdssetup/tdmX11/XKeysymDB
+XNLSPATH=$CDS_INST_DIR/share/cdssetup/tdmX11/nls
+CDS_AUTO_64BIT=ALL
+
+OA_HOME=/opt/EDA/cadence/IC/cur/oa
+
+export ICC_HOME=/opt/EDA/icc2/cur/doc/icc/man
+export ICC_MAN_DIR=/opt/EDA/icc/cur/doc/icc/man
+
+export LM_LICENSE_FILE=5280@lsncku:1717@lsncku:27000@lsncku:26585@lsncku:5280@lshc:1717@lshc:27000@lshc:26585@lshc
