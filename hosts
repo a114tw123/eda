@@ -1,13 +1,17 @@
 127.0.0.1	localhost
-127.0.1.1	42-2.stust.edu.tw	42-2
+127.0.1.1	pc46.stust.edu.tw	pc46
+
+140.112.20.58   lsntu
+140.115.71.66   lsncu
+140.113.202.121 lsnctu
+140.120.90.46   lsnchu
+140.116.49.24   lsncku
+
+140.126.24.16	lshc
+140.110.140.29	lstc
+140.110.117.10	lstn
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
-
-140.112.20.58   lsntu
-140.115.71.66   lsncu
-140.113.202.151 lsnctu
-140.120.90.46   lsnchu
-140.116.49.24   lsncku
