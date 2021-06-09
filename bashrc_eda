@@ -12,7 +12,7 @@ VCS="/opt/EDA/vcs/cur/bin"
 ###
 Modelsimbin="/opt/EDA/modelsim/cur/modeltech/bin"
 ###
-Questasimbin="/opt/EDA/Questa_Sim/cur/questasim/bin"
+#Questasimbin="/opt/EDA/Questa_Sim/cur/questasim/bin"
 ###
 Verdi_bin="/opt/EDA/verdi/cur/bin"
 
